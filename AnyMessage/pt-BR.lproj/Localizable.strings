@@ -1,0 +1,84 @@
+/*
+ Localizable.strings
+ 
+ Created by Haydar Kardeşler on 25.08.2018.
+ Copyright © 2018 Nuri Yigit. All rights reserved.
+ */
+
+"settings" = "Configurações";
+"contacts" = "Contactos";
+"favorites" = "Favoritos";
+"gmail" = "Gmail";
+"outlook" = "Outlook";
+"yahoo" = "Yahoo";
+"facebook" = "Facebook";
+"instagram" = "Instagram";
+"twitter" = "Twitter";
+"notes" = "Notas";
+"whatsapp_not_installed" = "WhatsApp não está instalado no seu aparelho.";
+"viber_not_installed" = "Viber não está instalado no seu aparelho.";
+"telegram_not_installed" = "Telegram não está instalado no seu aparelho.";
+"messenger_not_installed" = "Messenger não está instalado no seu aparelho.";
+"no_contact_found" = "Sem contatos";
+"no_note_found" = "Sem notas";
+"no_favorite_found" = "Sem favoritos";
+"do_you_want_to_get" = "Baixe agora?";
+"yes" = "Sim";
+"no" = "Não";
+"try_again" = "Tentar novamente";
+"loading" = "Carregando...";
+"please_wait" = "Por favor, espere...";
+"no_internet_connection" = "Sem conexão à internet";
+"save" = "Salvar";
+"cancel" = "Cancelar";
+"search_word" = "Pesquisar";
+"no_result_for" = "Sem resultados para ";
+"removed_favorites" = "Removido dos Favoritos";
+"added_favorites" = "Adicionado aos Favoritos";
+"two_tabs_enable" = "No mínimo 1 guias devem ser ativadas";
+"no_any_username" = "Sem nome de usuário";
+"save_a_username" = "Salvar nome de usuário";
+"intro1_string" = "Escolha um contato e visualize todas as mensagens nos aplicativos de mensagens e nas mídias sociais";
+"intro2_string" = "Siga instantaneamente as postagens no Facebook, Instagram e Twitter de seus amigos";
+"settings_choose_messenger" = "Escolha aplicativos de mensagens";
+"settings_manage_main_page" = "Gerenciar itens da página principal";
+"settings_drag_and_drop" = "Arraste e solte para reordenar";
+"settings_rearrange_items" = "Organizar itens na página de contato";
+"my_profile" = "Meu Perfil";
+"my_accounts" = "Minhas Páginas";
+"example_username" = "exemplo.nomedeusuário";
+"example_email" = "exemplo@abc.com";
+"next" = "PRÓXIMO";
+"done" = "OK";
+"done2" = "OK";
+"previous" = "ANTERIOR";
+"valid_username" = "Digite um nome de usuário válido";
+"pull_to_refresh" = "Puxe para atualizar";
+"delete_note_warning" = "Excluir?";
+"you" = "Você";
+"customtab1" = "Website 1";
+"customtab2" = "Website 2";
+"customtab3" = "Website 3";
+"gallery" = "Galeria";
+"example" = "Exemplo";
+"add_tab_text" = "Adicione um website";
+"url" = "URL";
+"title" = "Título";
+"add" = "Adicionar";
+"delete" = "Excluir";
+"add_tab_alert" = "Por favor, preencha todos os campos";
+"unique_name_warning" = "Este nome já existe. Digite um nome diferente.";
+"edit_custom_tab" = "Editar website";
+"invalid_url" = "URL inválida!";
+"rate" = "Avaliar AnyMessage";
+"permission_error_title" = "Erro de permissão";
+"permission_error_desc" = "A permissão de contato é necessária para o funcionamento adequado do AnyMessage. Por favor, permita esta permissão em Configurações.";
+"allow" = "OK";
+"exit" = "Não permitir";
+"tap_contact_row" = "Toque um contato para visualizar o histórico de mensagens";
+"detail_guide_text" = "Use o ícone Definições para inserir o nome de usuário das redes sociais de um contato e gerencie o pedido de items";
+"email" = "E-mail";
+"no_any_email" = "Sem endereço de e-mail";
+"save_an_email_address" = "Salvar endereço de e-mail";
+"valid_email" = "Endereço de e-mail inválido";
+

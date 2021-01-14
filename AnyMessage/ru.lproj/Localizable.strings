@@ -1,0 +1,84 @@
+/*
+ Localizable.strings
+ 
+ Created by Haydar Kardeşler on 25.08.2018.
+ Copyright © 2018 Nuri Yigit. All rights reserved.
+ */
+
+"settings" = "Настройки";
+"contacts" = "Контакты";
+"favorites" = "Избранное";
+"gmail" = "Gmail";
+"outlook" = "Outlook";
+"yahoo" = "Yahoo";
+"facebook" = "Facebook";
+"instagram" = "Instagram";
+"twitter" = "Twitter";
+"notes" = "Заметки";
+"whatsapp_not_installed" = "На вашем телефоне WhatsApp не установлен.";
+"viber_not_installed" = "На вашем телефоне Viber не установлен.";
+"telegram_not_installed" = "На вашем телефоне Telegram не установлен.";
+"messenger_not_installed" = "На вашем телефоне Messenger не установлен.";
+"no_contact_found" = "Нет контактов";
+"no_note_found" = "Нет заметок";
+"no_favorite_found" = "Нет любимой";
+"do_you_want_to_get" = "Вы хотите скачать?";
+"yes" = "Да";
+"no" = "Нет";
+"try_again" = "Повторите попытку";
+"loading" = "Идет загрузка...";
+"please_wait" = "Пожалуйста, подождите...";
+"no_internet_connection" = "Нет соединения";
+"save" = "Сохранить";
+"cancel" = "Отменить";
+"search_word" = "Поиск";
+"no_result_for" = "Не найдено результатов для ";
+"removed_favorites" = "Удалено из избранного";
+"added_favorites" = "Добавлено в избранное";
+"two_tabs_enable" = "Как минимум 1 вкладки должны быть включены";
+"no_any_username" = "Имя пользователя не найдено";
+"save_a_username" = "Сохранить пользователя";
+"intro1_string" = "Выберите контакт и просмотрите все сообщения в приложениях обмена сообщениями и различных социальных сетях.";
+"intro2_string" = "Следите за сообщениями своих друзей на Facebook, Instagram и Twitter мгновенно.";
+"settings_choose_messenger" = "Выберите мессенджеров";
+"settings_manage_main_page" = "Управление домашней страницей";
+"settings_drag_and_drop" = "Перетащите элементы";
+"settings_rearrange_items" = "Организовать контактную страницу";
+"my_profile" = "Мой профиль";
+"my_accounts" = "Мои страницы";
+"example_username" = "пример.имяпользователя";
+"example_email" = "пример@пример.пример";
+"next" = "Следующий";
+"done" = "Готово";
+"done2" = "Готово";
+"previous" = "Предыдущий";
+"valid_username" = "Введите действительное имя пользователя";
+"pull_to_refresh" = "Потяните чтобы обновить";
+"delete_note_warning" = "Удалить?";
+"you" = "Мой профиль";
+"customtab1" = "Веб-сайт 1";
+"customtab2" = "Веб-сайт 2";
+"customtab3" = "Веб-сайт 3";
+"gallery" = "Галерея";
+"example" = "Пример";
+"add_tab_text" = "Добавить веб-сайт";
+"url" = "Веб-адрес";
+"title" = "Заглавие";
+"add" = "Добавить";
+"delete" = "Удалить";
+"add_tab_alert" = "Пожалуйста, заполните все поля";
+"unique_name_warning" = "Это имя уже существует. Пожалуйста, введите другое имя.";
+"edit_custom_tab" = "Редактировать веб-сайт";
+"invalid_url" = "Неверный веб-адрес";
+"rate" = "Оценить приложение";
+"permission_error_title" = "Ошибка разрешения";
+"permission_error_desc" = "Для корректной работы приложения необходимо разрешение контактов. Пожалуйста, дайте это разрешение в настройках.";
+"allow" = "Разрешить";
+"exit" = "Запретить";
+"tap_contact_row" = "Нажмите строку контакта, чтобы просмотреть всю историю сообщ.";
+"detail_guide_text" = "Используйте значок «Настройки» для ввода ваших имен контактов. на платформах социальных сетей и управления заказами продуктов";
+"email" = "Эл. почта";
+"no_any_email" = "Нет идентифицированного адреса электронной почты.";
+"save_an_email_address" = "Сохранить адрес электронной почты";
+"valid_email" = "Неверный адрес электронной почты";
+

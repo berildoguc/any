@@ -1,0 +1,83 @@
+/*
+ Localizable.strings
+ 
+ Created by Haydar Kardeşler on 25.08.2018.
+ Copyright © 2018 Nuri Yigit. All rights reserved.
+ */
+
+"settings" = "सेटिंग";
+"contacts" = "संपर्क";
+"favorites" = "पसंदीदा";
+"gmail" = "जीमेल";
+"outlook" = "आउटलुक";
+"yahoo" = "याहू";
+"facebook" = "फेसबुक";
+"instagram" = "इंस्टाग्राम";
+"twitter" = "ट्विटर";
+"notes" = "नोट्स";
+"whatsapp_not_installed" = "वाट्सऐप आपके डिवाइस पर इंस्टॉल नहीं है.";
+"viber_not_installed" = "वाइबर आपके डिवाइस पर इंस्टॉल नहीं है.";
+"telegram_not_installed" = "टेलीग्राम आपके डिवाइस पर इंस्टॉल नहीं है.";
+"messenger_not_installed" = "मैसेंजर आपके डिवाइस पर इंस्टॉल नहीं है.";
+"no_contact_found" = "कोई कॉन्टेक्ट्स नहीं मिला";
+"no_note_found" = "कोई नोट् नहीं मिला";
+"no_favorite_found" = "कोई फ़ेव्रट नहीं मिला";
+"do_you_want_to_get" = "अभी डाउनलोड करे?";
+"yes" = "हाँ";
+"no" = "नहीं";
+"try_again" = "पुनः प्रयास करें";
+"loading" = "लोड हो रहा है...";
+"please_wait" = "कृपया प्रतीक्षा करें...";
+"no_internet_connection" = "कोई कनेक्शन नहीं";
+"save" = "सेव";
+"cancel" = "रद्द करें";
+"search_word" = "खोजें";
+"no_result_for" = " इसके लिए कोई परिणाम नहीं मिला ";
+"removed_favorites" = "पसंदीदा से हटाया गया";
+"added_favorites" = "पसंदीदा में जोड़ा गया";
+"two_tabs_enable" = "कम से कम एक पृष्ठ सक्षम होना चाहिए";
+"no_any_username" = "उपयोगकर्ता नाम नहीं मिला";
+"save_a_username" = "एक उपयोगकर्ता नाम सहेजें";
+"intro1_string" = "संपर्क चुनें और विभिन्न प्लेटफार्मों से उनके संदेशों और सोशल मीडिया पोस्ट तक पहुंचें";
+"intro2_string" = "अपने मित्रों के फेसबुक, इंस्टाग्राम और ट्विटर पोस्ट का तुरंत अनुसरण करें";
+"settings_choose_messenger" = "मैसेजिंग ऐप्स चुनें";
+"settings_manage_main_page" = "मुख्य पृष्ठ में आइटम प्रबंधित करें";
+"settings_drag_and_drop" = "ड्रैग और ड्राप करे पुनर्व्यवस्थित करने के लिए";
+"settings_rearrange_items" = "कॉन्टेक्ट् पृष्ठ पर आइटम पुन: व्यवस्थित करें";
+"my_profile" = "मेरी प्रोफाइल";
+"my_accounts" = "माय एकाउंट्स";
+"example_username" = "उदाहरण.उपयोगकर्तानाम";
+"example_email" = "उदाहरण@उदाहरण.उदाहरण";
+"next" = "अगला";
+"done" = "पूर्ण";
+"done2" = "पूर्ण";
+"previous" = "वापस";
+"valid_username" = "कृपया वैध उपभोगकर्ता नाम डाले";
+"pull_to_refresh" = "रीफ़्रेश करने के लिए खींचें";
+"delete_note_warning" = "हटाना चाहते हैं?";
+"you" = "आप";
+"customtab1" = "वेबसाइट 1";
+"customtab2" = "वेबसाइट २";
+"customtab3" = "वेबसाइट ३";
+"gallery" = "गेलरी";
+"example" = "उदाहरण";
+"add_tab_text" = "एक वेबसाइट जोड़ें";
+"url" = "वेब पता";
+"title" = "शीर्षक";
+"add" = "सहेजें";
+"delete" = "हटाएं";
+"add_tab_alert" = "कृपया सारी जगह भरो";
+"unique_name_warning" = "यह नाम पहले से ही मौजूद है। कृपया कोई दूसरा नाम दर्ज करें।";
+"edit_custom_tab" = "वेबसाइट संपादित करें";
+"invalid_url" = "अमान्य वेब पता!";
+"rate" = "इस एप्लिकेशन को रेट करें";
+"permission_error_title" = "अनुमति त्रुटि";
+"permission_error_desc" = "आवेदन के लिए संपर्क अनुमति आवश्यक है। कृपया इसे सेटिंग्स में अनुमति दें।";
+"allow" = "ठीक";
+"exit" = "अनुमति न दें";
+"tap_contact_row" = "संदेश इतिहास देखने के लिए कॉन्टेक्ट् में टैप करें";
+"detail_guide_text" = "किसी भी संपर्क के सोशल मीडिया उपयोगकर्ता नाम दर्ज करने और आइटम ऑर्डर को प्रबंधित करने के लिए सेटिंग्स आइकन का उपयोग करे";
+"no_any_email" = "नो ईमेल एड्रेस िडेंटिफ़िएड.";
+"save_an_email_address" = "सेव ईमेल एड्रेस";
+"valid_email" = "कृपया एक वैध ई - मेल एड्रेस डालें";
+

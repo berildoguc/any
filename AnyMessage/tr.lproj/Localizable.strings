@@ -1,0 +1,84 @@
+/*
+ Localizable.strings
+ 
+ Created by Haydar Kardeşler on 25.08.2018.
+ Copyright © 2018 Nuri Yigit. All rights reserved.
+ */
+
+"settings" = "Ayarlar";
+"contacts" = "Kişiler";
+"favorites" = "Favoriler";
+"gmail" = "Gmail";
+"outlook" = "Outlook";
+"yahoo" = "Yahoo";
+"facebook" = "Facebook";
+"instagram" = "Instagram";
+"twitter" = "Twitter";
+"notes" = "Notlar";
+"whatsapp_not_installed" = "Telefonunuzda WhatsApp yüklü değil.";
+"viber_not_installed" = "Telefonunuzda Viber yüklü değil.";
+"telegram_not_installed" = "Telefonunuzda Telegram yüklü değil.";
+"messenger_not_installed" = "Telefonunuzda Messenger yüklü değil.";
+"no_contact_found" = "Kayıtlı kişi yok";
+"no_note_found" = "Hiç not yok";
+"no_favorite_found" = "Hiç favori yok";
+"do_you_want_to_get" = "Yüklemek ister misiniz?";
+"yes" = "Evet";
+"no" = "Hayır";
+"try_again" = "Tekrar dene";
+"loading" = "Yükleniyor...";
+"please_wait" = "Lütfen bekleyin...";
+"no_internet_connection" = "İnternet bağlantısı yok";
+"save" = "Kaydet";
+"cancel" = "İptal";
+"search_word" = "Ara";
+"no_result_for" = "Sonuç bulunamadı ";
+"removed_favorites" = "Favorilerden çıkarıldı";
+"added_favorites" = "Favorilere eklendi";
+"two_tabs_enable" = "En az bir sekme seçilmelidir";
+"no_any_username" = "Kullanıcı adı bulunamadı";
+"save_a_username" = "Bir kullanıcı adı kaydet";
+"intro1_string" = "Rehberden bir kişi seçin ve farklı uygulamalardaki tüm mesajlarına ve sosyal medya paylaşımlarına aynı yerden ulaşın";
+"intro2_string" = "Arkadaşlarınızın Facebook, Instagram ve Twitter mesajlarını kolayca takip edin";
+"settings_choose_messenger" = "Mesajlaşma uygulamalarını seçin";
+"settings_manage_main_page" = "Ana sayfa öğelerini düzenleyin";
+"settings_drag_and_drop" = "Değiştirmek için sürükleyin ve bırakın";
+"settings_rearrange_items" = "Kişi sayfasındaki öğeleri düzenleyin";
+"my_profile" = "Benim Sayfam";
+"my_accounts" = "Hesaplarım";
+"example_username" = "ornek.kullaniciadi";
+"example_email" = "ornek@abc.com";
+"next" = "SONRAKİ";
+"done" = "BAŞLA";
+"done2" = "Bitti";
+"previous" = "ÖNCEKİ";
+"valid_username" = "Geçerli bir kullanıcı adı girin";
+"pull_to_refresh" = "Yenilemek için aşağı çekin";
+"delete_note_warning" = "Silinsin mi?";
+"you" = "Siz";
+"customtab1" = "Ek Site 1";
+"customtab2" = "Ek Site 2";
+"customtab3" = "Ek Site 3";
+"gallery" = "Galeri";
+"example" = "Örnek başlık";
+"add_tab_text" = "Yeni web sitesi ekle";
+"url" = "Adres";
+"title" = "İsim";
+"add" = "Ekle";
+"delete" = "Sil";
+"add_tab_alert" = "Lütfen tüm alanları doldurun";
+"unique_name_warning" = "Bu web site ismi zaten kayıtlı. Lütfen farklı bir isim girin.";
+"edit_custom_tab" = "Web sitesini düzenle";
+"invalid_url" = "Geçersiz web adresi!";
+"rate" = "Uygulamayı değerlendirin";
+"permission_error_title" = "Gerekli İzin Eksik!";
+"permission_error_desc" = "Kişiler izni uygulamanın çalışması için gereklidir. Lütfen ayarlardan Kişiler iznini verin.";
+"allow" = "İzin ver";
+"exit" = "Çıkış";
+"tap_contact_row" = "Kişilerin tüm mesajlarını görmek için bir satıra tıklayın";
+"detail_guide_text" = "Kişilerin sosyal medya platformlarındaki kullanıcı adlarını girmek ve uygulamaları yönetmek için Ayarlar menüsünü kullanın";
+"email" = "E-posta";
+"no_any_email" = "E-posta adresi bulunamadı";
+"save_an_email_address" = "Bir e-posta adresi kaydet";
+"valid_email" = "Geçersiz e-posta adresi";
+

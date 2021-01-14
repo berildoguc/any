@@ -1,0 +1,8 @@
+/* 
+  InfoPlist.strings
+  AnyMessage
+
+  Created by Haydar Kardesler on 15.01.2020.
+  Copyright © 2020 HH&HS Apps. All rights reserved.
+*/
+"NSContactsUsageDescription" = "कॉल करने और प्रबंधित करने के लिए कृपया अपने संपर्कों को एक्सेस दें।";

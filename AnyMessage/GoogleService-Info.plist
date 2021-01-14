@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>233281772758-op17ojtoldbimes5sd4fslqfr35essgf.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.233281772758-op17ojtoldbimes5sd4fslqfr35essgf</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDNimrbn4Jha8StKyMisJnLyLDm2uBVjeY</string>
+	<key>GCM_SENDER_ID</key>
+	<string>233281772758</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.hh.hs.AnyMessage</string>
+	<key>PROJECT_ID</key>
+	<string>anymessage-ios</string>
+	<key>STORAGE_BUCKET</key>
+	<string>anymessage-ios.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:233281772758:ios:f3a2dc8fa38bc90f</string>
+	<key>DATABASE_URL</key>
+	<string>https://anymessage-ios.firebaseio.com</string>
+	<key>ADMOB_APP_ID</key>
+	<string>ca-app-pub-8704061016586784~3915611708</string>
+</dict>
+</plist>

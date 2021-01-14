@@ -1,0 +1,285 @@
+
+/* Class = "UILabel"; text = "AnyMessage"; ObjectID = "030-r6-lv9"; */
+"030-r6-lv9.text" = "AnyMessage";
+
+/* Class = "UITextField"; placeholder = "http://www.example.com"; ObjectID = "0Zn-LL-jta"; */
+"0Zn-LL-jta.placeholder" = "http://www.example.com";
+
+/* Class = "UITextField"; text = "http://www."; ObjectID = "0Zn-LL-jta"; */
+"0Zn-LL-jta.text" = "http://www.";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "3cf-nw-z9Z"; */
+"3cf-nw-z9Z.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "3dE-wQ-cg5"; */
+"3dE-wQ-cg5.text" = "Label";
+
+/* Class = "UILabel"; text = "Date"; ObjectID = "3je-5d-1Mx"; */
+"3je-5d-1Mx.text" = "Date";
+
+/* Class = "UILabel"; text = "Content"; ObjectID = "3ol-5z-zaP"; */
+"3ol-5z-zaP.text" = "Content";
+
+/* Class = "UILabel"; text = "Loading..."; ObjectID = "4Ky-bN-d35"; */
+"4Ky-bN-d35.text" = "Loading...";
+
+/* Class = "UILabel"; text = "My Accounts"; ObjectID = "5PV-3v-biH"; */
+"5PV-3v-biH.text" = "My Accounts";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "5i7-LH-20W"; */
+"5i7-LH-20W.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "5u8-Ox-gro"; */
+"5u8-Ox-gro.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "6PK-cf-Ybb"; */
+"6PK-cf-Ybb.text" = "Label";
+
+/* Class = "UITabBarItem"; title = "Contacts"; ObjectID = "6n4-FR-pXg"; */
+"6n4-FR-pXg.title" = "Contacts";
+
+/* Class = "UILabel"; text = "Instagram"; ObjectID = "7hH-sO-EkR"; */
+"7hH-sO-EkR.text" = "Instagram";
+
+/* Class = "UILabel"; text = "Drag and drop to reorder"; ObjectID = "8Tb-pP-mPs"; */
+"8Tb-pP-mPs.text" = "Drag and drop to reorder";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "8cj-eL-kSj"; */
+"8cj-eL-kSj.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Contacts"; ObjectID = "9x9-zS-zhi"; */
+"9x9-zS-zhi.text" = "Contacts";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "AJq-jh-qyr"; */
+"AJq-jh-qyr.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "A"; ObjectID = "AYs-CM-DF0"; */
+"AYs-CM-DF0.text" = "A";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Avd-7K-Re6"; */
+"Avd-7K-Re6.text" = "Label";
+
+/* Class = "UISearchBar"; placeholder = "Search"; ObjectID = "FUW-SZ-TwR"; */
+"FUW-SZ-TwR.placeholder" = "Search";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Ftp-5n-1cZ"; */
+"Ftp-5n-1cZ.text" = "Label";
+
+/* Class = "UINavigationItem"; title = "Details"; ObjectID = "Fyg-NH-0Gq"; */
+"Fyg-NH-0Gq.title" = "Details";
+
+/* Class = "UITextField"; placeholder = "Example"; ObjectID = "IMW-MV-DBf"; */
+"IMW-MV-DBf.placeholder" = "Example";
+
+/* Class = "UITextField"; placeholder = "Example"; ObjectID = "Jqs-m0-Iet"; */
+"Jqs-m0-Iet.placeholder" = "Example";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "KWx-FQ-uKI"; */
+"KWx-FQ-uKI.text" = "Label";
+
+/* Class = "UILabel"; text = "Loading..."; ObjectID = "KZE-bP-lmb"; */
+"KZE-bP-lmb.text" = "Loading...";
+
+/* Class = "UILabel"; text = "Loading..."; ObjectID = "L5o-we-W3T"; */
+"L5o-we-W3T.text" = "Loading...";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Lbs-Zx-0c1"; */
+"Lbs-Zx-0c1.text" = "Label";
+
+/* Class = "UILabel"; text = "A"; ObjectID = "MK0-sj-xsC"; */
+"MK0-sj-xsC.text" = "A";
+
+/* Class = "UILabel"; text = "Twitter"; ObjectID = "N0M-0G-bQS"; */
+"N0M-0G-bQS.text" = "Twitter";
+
+/* Class = "UINavigationItem"; title = "My Profile"; ObjectID = "Nvx-UP-MdV"; */
+"Nvx-UP-MdV.title" = "My Profile";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Omq-7H-j8I"; */
+"Omq-7H-j8I.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Delete"; ObjectID = "Ph3-mt-wJm"; */
+"Ph3-mt-wJm.normalTitle" = "Delete";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "PiG-ku-Wok"; */
+"PiG-ku-Wok.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Puw-he-0M3"; */
+"Puw-he-0M3.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "QGw-eV-6be"; */
+"QGw-eV-6be.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Rfm-So-fL9"; */
+"Rfm-So-fL9.text" = "Label";
+
+/* Class = "UILabel"; text = "A"; ObjectID = "SHM-rh-CbS"; */
+"SHM-rh-CbS.text" = "A";
+
+/* Class = "UILabel"; text = "Facebook"; ObjectID = "TWY-Nz-4Zm"; */
+"TWY-Nz-4Zm.text" = "Facebook";
+
+/* Class = "UILabel"; text = "Rearrange items on contact page"; ObjectID = "Tel-h0-iQk"; */
+"Tel-h0-iQk.text" = "Rearrange items on contact page";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "TgV-L5-934"; */
+"TgV-L5-934.text" = "Label";
+
+/* Class = "UIBarButtonItem"; title = "Back"; ObjectID = "Tuk-Dk-7aK"; */
+"Tuk-Dk-7aK.title" = "Back";
+
+/* Class = "UILabel"; text = "A"; ObjectID = "U7v-kd-V8d"; */
+"U7v-kd-V8d.text" = "A";
+
+/* Class = "UILabel"; text = "Loading..."; ObjectID = "U8E-6M-pUR"; */
+"U8E-6M-pUR.text" = "Loading...";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Ug6-s3-knz"; */
+"Ug6-s3-knz.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "W2e-i6-aqT"; */
+"W2e-i6-aqT.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "WnN-h9-NQa"; */
+"WnN-h9-NQa.normalTitle" = "Button";
+
+/* Class = "UITextField"; placeholder = "Example"; ObjectID = "WxT-21-Ef6"; */
+"WxT-21-Ef6.placeholder" = "Example";
+
+/* Class = "UITextField"; placeholder = "Example"; ObjectID = "XN8-QE-yfA"; */
+"XN8-QE-yfA.placeholder" = "Example";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Xm9-XA-qy6"; */
+"Xm9-XA-qy6.normalTitle" = "Button";
+
+/* Class = "UIBarButtonItem"; title = "Profile"; ObjectID = "Y9c-mH-7HX"; */
+"Y9c-mH-7HX.title" = "Profile";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "YXC-RK-sZF"; */
+"YXC-RK-sZF.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Facebook"; ObjectID = "Z4X-Ij-SJm"; */
+"Z4X-Ij-SJm.text" = "Facebook";
+
+/* Class = "UILabel"; text = "Choose messaging apps"; ObjectID = "Z5W-bG-dAF"; */
+"Z5W-bG-dAF.text" = "Choose messaging apps";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Zjc-hN-mUL"; */
+"Zjc-hN-mUL.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Save"; ObjectID = "aGF-my-CWo"; */
+"aGF-my-CWo.normalTitle" = "Save";
+
+/* Class = "UILabel"; text = "HH&HS Applications"; ObjectID = "aK9-YC-1K9"; */
+"aK9-YC-1K9.text" = "HH&HS Applications";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "aMj-qX-dac"; */
+"aMj-qX-dac.text" = "Name";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "bLR-O1-lu9"; */
+"bLR-O1-lu9.text" = "Label";
+
+/* Class = "UILabel"; text = "Notes"; ObjectID = "bef-kr-3qX"; */
+"bef-kr-3qX.text" = "Notes";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "cEI-DX-0bq"; */
+"cEI-DX-0bq.text" = "Label";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "cRl-uI-0MB"; */
+"cRl-uI-0MB.text" = "Title";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "cTN-Vc-Nxy"; */
+"cTN-Vc-Nxy.title" = "Item";
+
+/* Class = "UILabel"; text = "A"; ObjectID = "cYl-dt-Hjl"; */
+"cYl-dt-Hjl.text" = "A";
+
+/* Class = "UILabel"; text = "Manage main page items    "; ObjectID = "dsN-xD-qYI"; */
+"dsN-xD-qYI.text" = "Manage main page items    ";
+
+/* Class = "UILabel"; text = "Content"; ObjectID = "eDr-XP-jib"; */
+"eDr-XP-jib.text" = "Content";
+
+/* Class = "UIButton"; normalTitle = "PREVIOUS"; ObjectID = "eEB-ju-zk0"; */
+"eEB-ju-zk0.normalTitle" = "PREVIOUS";
+
+/* Class = "UILabel"; text = "Drag and drop to reorder"; ObjectID = "f8B-Z0-EMt"; */
+"f8B-Z0-EMt.text" = "Drag and drop to reorder";
+
+/* Class = "UIBarButtonItem"; title = "Add Favorite"; ObjectID = "fFi-Zj-Ijx"; */
+"fFi-Zj-Ijx.title" = "Add Favorite";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "fJ8-Ej-63B"; */
+"fJ8-Ej-63B.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Instagram"; ObjectID = "gAZ-kd-aAk"; */
+"gAZ-kd-aAk.text" = "Instagram";
+
+/* Class = "UIViewController"; title = "First"; ObjectID = "gDk-Rr-5xw"; */
+"gDk-Rr-5xw.title" = "First";
+
+/* Class = "UILabel"; text = "Facebook"; ObjectID = "gi9-MQ-0zq"; */
+"gi9-MQ-0zq.text" = "Facebook";
+
+/* Class = "UILabel"; text = "Add a custom website"; ObjectID = "guP-rz-z6F"; */
+"guP-rz-z6F.text" = "Add a custom website";
+
+/* Class = "UILabel"; text = "Notes"; ObjectID = "iCK-7P-T3a"; */
+"iCK-7P-T3a.text" = "Notes";
+
+/* Class = "UIButton"; normalTitle = "NEXT"; ObjectID = "jcM-mN-HsJ"; */
+"jcM-mN-HsJ.normalTitle" = "NEXT";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "ktS-LU-DVL"; */
+"ktS-LU-DVL.title" = "Item";
+
+/* Class = "UILabel"; text = "Date"; ObjectID = "kuj-9e-Dcd"; */
+"kuj-9e-Dcd.text" = "Date";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "lqE-Xm-LqI"; */
+"lqE-Xm-LqI.title" = "Item";
+
+/* Class = "UIBarButtonItem"; title = "Call"; ObjectID = "mDd-o5-8lf"; */
+"mDd-o5-8lf.title" = "Call";
+
+/* Class = "UIBarButtonItem"; title = "Profile"; ObjectID = "mUS-lq-QrO"; */
+"mUS-lq-QrO.title" = "Profile";
+
+/* Class = "UILabel"; text = "Date"; ObjectID = "nD4-gP-WH4"; */
+"nD4-gP-WH4.text" = "Date";
+
+/* Class = "UIBarButtonItem"; title = "Back"; ObjectID = "nwL-hR-pvo"; */
+"nwL-hR-pvo.title" = "Back";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "oNH-f1-H7k"; */
+"oNH-f1-H7k.text" = "Label";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "pbm-g7-Jpc"; */
+"pbm-g7-Jpc.title" = "Item";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "ppU-V8-QU7"; */
+"ppU-V8-QU7.text" = "Label";
+
+/* Class = "UILabel"; text = "Twitter"; ObjectID = "ptM-V4-19D"; */
+"ptM-V4-19D.text" = "Twitter";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "qHV-ZS-G8S"; */
+"qHV-ZS-G8S.title" = "Item";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "rkK-xO-q0n"; */
+"rkK-xO-q0n.normalTitle" = "Cancel";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "tfr-ep-b4b"; */
+"tfr-ep-b4b.title" = "Item";
+
+/* Class = "UITabBarItem"; title = "Notes"; ObjectID = "tgC-h5-Wdf"; */
+"tgC-h5-Wdf.title" = "Notes";
+
+/* Class = "UITabBarItem"; title = "Favorites"; ObjectID = "wzC-nC-Vvb"; */
+"wzC-nC-Vvb.title" = "Favorites";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "xkL-fm-0b5"; */
+"xkL-fm-0b5.text" = "Label";
+
+/* Class = "UILabel"; text = "URL"; ObjectID = "zte-HC-6rz"; */
+"zte-HC-6rz.text" = "URL";

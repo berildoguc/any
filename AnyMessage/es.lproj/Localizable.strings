@@ -1,0 +1,84 @@
+/*
+ Localizable.strings
+ 
+ Created by Haydar Kardeşler on 25.08.2018.
+ Copyright © 2018 Nuri Yigit. All rights reserved.
+ */
+
+"settings" = "Ajustes";
+"contacts" = "Contactos";
+"favorites" = "Favoritos";
+"gmail" = "Gmail";
+"outlook" = "Outlook";
+"yahoo" = "Yahoo";
+"facebook" = "Facebook";
+"instagram" = "Instagram";
+"twitter" = "Twitter";
+"notes" = "Notas";
+"whatsapp_not_installed" = "WhatsApp no está instalado en su teléfono.";
+"viber_not_installed" = "Viber no está instalado en su teléfono.";
+"telegram_not_installed" = "Telegram no está instalado en su teléfono.";
+"messenger_not_installed" = "Messenger no está instalado en su teléfono.";
+"no_contact_found" = "Sin contactos";
+"no_note_found" = "Sin notas";
+"no_favorite_found" = "Sin favoritos";
+"do_you_want_to_get" = "¿Descargar ahora?";
+"yes" = "Sí";
+"no" = "No";
+"try_again" = "Inténtalo de nuevo";
+"loading" = "Cargando...";
+"please_wait" = "Por favor, espera...";
+"no_internet_connection" = "Sin conexión a Internet";
+"save" = "Guardar";
+"cancel" = "Cancelar";
+"search_word" = "Buscar";
+"no_result_for" = "No se encontró ";
+"removed_favorites" = "Eliminado de Favoritos";
+"added_favorites" = "Agregado a Favoritos";
+"two_tabs_enable" = "Al menos 1 pestañas deben estar habilitadas";
+"no_any_username" = "Sin nombre de usuario";
+"save_a_username" = "Guardar nombre de usuario";
+"intro1_string" = "Elija un contacto y acceda a todos los mensajes en mensajeros y redes sociales";
+"intro2_string" = "Sigue al instante las publicaciones de Facebook, Instagram y Twitter de tus amigos";
+"settings_choose_messenger" = "Elija aplicaciones de mensajería";
+"settings_manage_main_page" = "Administrar página de inicio";
+"settings_drag_and_drop" = "Arrastra y suelta para reordenar";
+"settings_rearrange_items" = "Reorganizar a la página de contacto";
+"my_profile" = "Mi perfil";
+"my_accounts" = "Mi cuentas";
+"example_username" = "ejemplo.nombredeusuario";
+"example_email" = "ejemplo@abc.com";
+"next" = "SIGUIENTE";
+"done" = "OK";
+"done2" = "OK";
+"previous" = "PREVIO";
+"valid_username" = "Ingrese un nombre de usuario válido";
+"pull_to_refresh" = "Tire para actualizar";
+"delete_note_warning" = "¿Eliminar?";
+"you" = "Tú";
+"customtab1" = "Sitio web 1";
+"customtab2" = "Sitio web 2";
+"customtab3" = "Sitio web 3";
+"gallery" = "Galería";
+"example" = "Ejemplo";
+"add_tab_text" = "Agregar un sitio web";
+"url" = "Dirección Web";
+"title" = "Título";
+"add" = "Añadir";
+"delete" = "Eliminar";
+"add_tab_alert" = "Por favor, rellene todos los campos";
+"unique_name_warning" = "Este título ya existe. Por favor, entrar un título diferente.";
+"edit_custom_tab" = "Editar sitio web";
+"invalid_url" = "Dirección web no válida";
+"rate" = "Valora AnyMessage";
+"permission_error_title" = "Error de permiso";
+"permission_error_desc" = "Se requiere permiso de contacto para que la aplicación funcione correctamente. Permita este permiso en Ajustes.";
+"allow" = "Permitir";
+"exit" = "No permitir";
+"tap_contact_row" = "Toca una fila de contacto para ver todo el historial de mensajes";
+"detail_guide_text" = "Use el ícono de Ajustes para ingresar nombres de usuario de contacto en plataformas de redes sociales y para administrar el orden de los artículos";
+"email" = "Email";
+"no_any_email" = "Sin dirección de email";
+"save_an_email_address" = "Guardar un email";
+"valid_email" = "Dirección de email no válida";
+

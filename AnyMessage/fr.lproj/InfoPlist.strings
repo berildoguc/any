@@ -1,0 +1,8 @@
+/* 
+  InfoPlist.strings
+  AnyMessage
+
+  Created by Haydar Kardesler on 15.01.2020.
+  Copyright © 2020 HH&HS Apps. All rights reserved.
+*/
+"NSContactsUsageDescription" = "Veuillez autoriser l\'accès aux Contacts pour passer et gérer des appels.";

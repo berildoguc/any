@@ -1,0 +1,8 @@
+/* 
+  InfoPlist.strings
+  AnyMessage
+
+  Created by Haydar Kardesler on 15.01.2020.
+  Copyright © 2020 HH&HS Apps. All rights reserved.
+*/
+"NSContactsUsageDescription" = "Permitir acceso a Contactos para realizar y administrar llamadas.";

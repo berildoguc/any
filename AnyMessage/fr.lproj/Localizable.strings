@@ -1,0 +1,84 @@
+/*
+ Localizable.strings
+ 
+ Created by Haydar Kardeşler on 25.08.2018.
+ Copyright © 2018 Nuri Yigit. All rights reserved.
+ */
+
+"settings" = "Paramètres";
+"contacts" = "Contacts";
+"favorites" = "Favoris";
+"gmail" = "Gmail";
+"outlook" = "Outlook";
+"yahoo" = "Yahoo";
+"facebook" = "Facebook";
+"instagram" = "Instagram";
+"twitter" = "Twitter";
+"notes" = "Notes";
+"whatsapp_not_installed" = "WhatsApp n\'est pas installé sur votre téléphone.";
+"viber_not_installed" = "Viber n\'est pas installé sur votre téléphone.";
+"telegram_not_installed" = "Telegram n\'est pas installé sur votre téléphone.";
+"messenger_not_installed" = "Messenger n\'est pas installé sur votre téléphone.";
+"no_contact_found" = "Aucun contacts";
+"no_note_found" = "Aucun notes";
+"no_favorite_found" = "Aucun favoris";
+"do_you_want_to_get" = "Voulez-vous installer?";
+"yes" = "Oui";
+"no" = "Non";
+"try_again" = "Réessayer";
+"loading" = "Chargement...";
+"please_wait" = "Chargement...";
+"no_internet_connection" = "Pas de connexion Internet";
+"save" = "Sauvegarder";
+"cancel" = "Annuler";
+"search_word" = "Rechercher";
+"no_result_for" = "Aucun résultat trouvé pour ";
+"removed_favorites" = "Retiré des favoris";
+"added_favorites" = "Ajouté aux favoris";
+"two_tabs_enable" = "Au moins 1 page doit être activée";
+"no_any_username" = "Aucun nom d\'utilisateur";
+"save_a_username" = "Ajouter un nom d\'utilisateur";
+"intro1_string" = "Choisissez un contact et accédez à ses messages et publications sur les réseaux sociaux à partir de différentes plateformes";
+"intro2_string" = "Suivez instantanément les publications Facebook, Instagram et Twitter de vos amis";
+"settings_choose_messenger" = "Choisissez les messagers";
+"settings_manage_main_page" = "Gérer la page principale";
+"settings_drag_and_drop" = "Glisser-déposer des éléments";
+"settings_rearrange_items" = "Réorganiser la page de contact";
+"my_profile" = "Mon profil";
+"my_accounts" = "Mon comptes";
+"example_username" = "exemple.nomd\'utilisateur";
+"example_email" = "exemple@abc.com";
+"next" = "SUIVANT";
+"done" = "OK";
+"done2" = "OK";
+"previous" = "PRÉCÉDENT";
+"valid_username" = "Entrez un nom d\'utilisateur valide";
+"pull_to_refresh" = "Tirer pour rafraîchir";
+"delete_note_warning" = "Supprimer?";
+"you" = "Vous";
+"customtab1" = "Site Web 1";
+"customtab2" = "Site Web 2";
+"customtab3" = "Site Web 3";
+"gallery" = "Galerie";
+"example" = "Exemple";
+"add_tab_text" = "Ajouter un site Web";
+"url" = "URL";
+"title" = "Titre";
+"add" = "Ajouter";
+"delete" = "Supprimer";
+"add_tab_alert" = "Merci de remplir tous les champs";
+"unique_name_warning" = "Ce nom d\'onglet existe déjà. Veuillez saisir un nom différent.";
+"edit_custom_tab" = "Modifier le site Web";
+"invalid_url" = "Adresse Web non valide!";
+"rate" = "Noter AnyMessage";
+"permission_error_title" = "Erreur d\'autorisation";
+"permission_error_desc" = "L\'autorisation des contacts est requise pour fonctionner correctement l\'application. Veuillez autoriser cette autorisation dans les Paramètres.";
+"allow" = "Autoriser";
+"exit" = "Refuser";
+"tap_contact_row" = "Appuyez sur une ligne de contact pour afficher l\'historique de tous les messages";
+"detail_guide_text" = "Utilisez l\'icône Paramètres pour entrer les noms d\'utilisateur de contact sur les plateformes de médias sociaux et pour gérer la commande des articles";
+"email" = "E-mail";
+"no_any_email" = "Aucune adresse e-mail";
+"save_an_email_address" = "Enregistrer une adresse e-mail";
+"valid_email" = "Adresse e-mail invalide";
+

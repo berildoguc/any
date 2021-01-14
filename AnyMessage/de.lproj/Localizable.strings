@@ -1,0 +1,84 @@
+/*
+ Localizable.strings
+ 
+ Created by Haydar Kardeşler on 25.08.2018.
+ Copyright © 2018 Nuri Yigit. All rights reserved.
+ */
+
+"settings" = "Einstellungen";
+"contacts" = "Kontakte";
+"favorites" = "Favoriten";
+"gmail" = "Gmail";
+"outlook" = "Outlook";
+"yahoo" = "Yahoo";
+"facebook" = "Facebook";
+"instagram" = "Instagram";
+"twitter" = "Twitter";
+"notes" = "Notizen";
+"whatsapp_not_installed" = "WhatsApp ist nicht auf deinem Gerät installiert.";
+"viber_not_installed" = "Viber ist nicht auf deinem Gerät installiert.";
+"telegram_not_installed" = "Telegram ist nicht auf deinem Gerät installiert.";
+"messenger_not_installed" = "Messenger ist nicht auf deinem Gerät installiert.";
+"no_contact_found" = "Kein Kontakte";
+"no_note_found" = "Kein Notizen";
+"no_favorite_found" = "Kein Favoriten";
+"do_you_want_to_get" = "Jetzt downloaden?";
+"yes" = "Ja";
+"no" = "Nein";
+"try_again" = "Erneut versuchen";
+"loading" = "Wird geladen ...";
+"please_wait" = "Warten Sie mal ...";
+"no_internet_connection" = "Kein Internet";
+"save" = "Speichern";
+"cancel" = "Abbrechen";
+"search_word" = "Suchen";
+"no_result_for" = "Keine Ergebnisse für ";
+"removed_favorites" = "Aus den Favoriten entfernen";
+"added_favorites" = "Zu Favoriten hinzugefügt";
+"two_tabs_enable" = "Es muss mindestens 1 Tab aktiviert sein";
+"no_any_username" = "Kein Benutzername";
+"save_a_username" = "Benutzernamen hinzufügen";
+"intro1_string" = "Wählen Sie einen Kontakt und greifen Sie von verschiedenen Plattformen aus auf seine Nachrichten und Social Media-Beiträge zu";
+"intro2_string" = "Zeigen Sie ganz einfach die Facebook-, Instagram- und Twitter-Posts Ihrer Freunde an einem Ort an";
+"settings_choose_messenger" = "Wählen Sie Messengers";
+"settings_manage_main_page" = "Verwalten Startseite Artikel";
+"settings_drag_and_drop" = "Ziehen und ablegen";
+"settings_rearrange_items" = "Kontaktseite neu anordnen";
+"my_profile" = "Mein Profil";
+"my_accounts" = "Meine Accounts";
+"example_username" = "beispiel.nutzername";
+"example_email" = "beispiel@abc.com";
+"next" = "NÄCHSTER";
+"done" = "FERTIG";
+"done2" = "Fertig";
+"previous" = "VORHERIGE";
+"valid_username" = "Geben Sie einen gültigen Benutzername";
+"pull_to_refresh" = "Zum Aktualisieren ziehen";
+"delete_note_warning" = "Löschen?";
+"you" = "Du";
+"customtab1" = "Website 1";
+"customtab2" = "Website 2";
+"customtab3" = "Website 3";
+"gallery" = "Galerie";
+"example" = "Beispiel";
+"add_tab_text" = "Fügen Sie eine Website";
+"url" = "URL";
+"title" = "Titel";
+"add" = "Hinzufügen";
+"delete" = "Löschen";
+"add_tab_alert" = "Bitte füllen Sie alle Felder aus";
+"unique_name_warning" = "Dieser Name ist bereits vorhanden. Bitte geben Sie einen anderen Namen ein.";
+"edit_custom_tab" = "Website bearbeiten";
+"invalid_url" = "Ungültige URL";
+"rate" = ">Bewerten AnyMessage";
+"permission_error_title" = "Berechtigungsfehler";
+"permission_error_desc" = "Kontakterlaubnis ist erforderlich. Bitte erlauben Sie diese Berechtigung in den Einstellungen.";
+"allow" = "Erlauben";
+"exit" = "Nicht erlauben";
+"tap_contact_row" = "Auf Kontakt tippen um Nachrichtenverlauf anzuzeigen";
+"detail_guide_text" = "Einstellungen Symbol nutzen, um Social-Media Benutzernamen eines Kontaktes einzugeben und Elementanordnung zu verwalten";
+"email" = "E-Mail";
+"no_any_email" = "E-Mail-Adresse nicht identifiziert";
+"save_an_email_address" = "E-Mail-Adresse speichern";
+"valid_email" = "E-Mail-Adresse ist nicht korrekt";
+
