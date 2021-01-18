@@ -35,47 +35,47 @@ class FavoritesVC: UIViewController, UITableViewDelegate, UITableViewDataSource,
     override func viewDidLoad() {
         super.viewDidLoad()
         navigationController?.navigationBar.shadowImage = UIImage()
-
+        
         self.collectionView.delegate = self
         self.collectionView.dataSource = self
         
         let layout = UICollectionViewFlowLayout()
-               layout.sectionInset = UIEdgeInsets(top: 0, left: spacing, bottom:0, right: spacing)
-               layout.minimumLineSpacing = spacing
-               layout.minimumInteritemSpacing = spacing
-               self.collectionView?.collectionViewLayout = layout
+        layout.sectionInset = UIEdgeInsets(top: 0, left: spacing, bottom:0, right: spacing)
+        layout.minimumLineSpacing = spacing
+        layout.minimumInteritemSpacing = spacing
+        self.collectionView?.collectionViewLayout = layout
         
         tableView.delegate = self
         tableView.dataSource = self
         tableView.isEditing = true
-       // self.navigationItem.titleView?.isHidden = true
+        // self.navigationItem.titleView?.isHidden = true
         searchBar.placeholder = NSLocalizedString("search_word", comment: "")
         searchBar.tintColor = UIColor(red: 0/255.0, green: 132.0/255.0, blue: 255.0/255.0, alpha: 1.0)
         searchBar.searchBarStyle = .minimal
         searchBar.delegate = self
         searchBar.returnKeyType = UIReturnKeyType.done
         self.navigationItem.titleView = searchBar
-
+        
         if(defaults.object(forKey: "favoriteList") != nil){
             let decoded  = defaults.object(forKey: "favoriteList") as! Data
             favoriteList = NSKeyedUnarchiver.unarchiveObject(with: decoded) as! [ContactItem]
             favoriteListOriginal = favoriteList
-           
+            
         }
         tableView.keyboardDismissMode = .interactive
-
+        
         //btnMyProfile.image = UIImage(named:"my_profile")?.withRenderingMode(.alwaysOriginal)
         lblNotFound.text = NSLocalizedString("no_favorite_found", comment: "")
         imgNotFound.image = UIImage(named: "not_found_favorites")
         
         if(favoriteList.count == 0){
-            tableView.isHidden = true
+            //tableView.isHidden = true
             not_found_view.isHidden = false
             searchBar.isUserInteractionEnabled = false
-
+            
         }else if (favoriteList.count < 2){
             searchBar.isUserInteractionEnabled = false
-
+            
         }
         
         
@@ -84,7 +84,7 @@ class FavoritesVC: UIViewController, UITableViewDelegate, UITableViewDataSource,
         
         bannerViewFacebook = FBAdView(placementID: "1261484220642800_1261491200642102", adSize: kFBAdSize320x50, rootViewController: self)
         bannerViewFacebook.delegate = self
-     
+        
         
         adView.addSubview(bannerViewFacebook)
         bannerViewFacebook.frame.size = CGSize(width: view.frame.size.width, height: 50)
@@ -93,11 +93,11 @@ class FavoritesVC: UIViewController, UITableViewDelegate, UITableViewDataSource,
         bannerViewFacebook.loadAd()
         
     }
-
+    
     // FACEBOOK ADS FUNCTIONS
     func adViewDidLoad(_ adView: FBAdView) {
         print("yüklendi facebook reklam")
- 
+        
     }
     
     func adView(_ adView: FBAdView, didFailWithError error: Error) {
@@ -138,7 +138,7 @@ class FavoritesVC: UIViewController, UITableViewDelegate, UITableViewDataSource,
     // ADMOB FUNCTIONS
     func adViewDidReceiveAd(_ bannerView: GADBannerView) {
         print("yüklendi admob reklam")
-
+        
     }
     
     /// Tells the delegate an ad request failed.
@@ -160,7 +160,7 @@ class FavoritesVC: UIViewController, UITableViewDelegate, UITableViewDataSource,
             guide.leftAnchor.constraint(equalTo: bannerView.leftAnchor),
             guide.rightAnchor.constraint(equalTo: bannerView.rightAnchor),
             guide.bottomAnchor.constraint(equalTo: bannerView.bottomAnchor)
-            ])
+        ])
     }
     
     func positionBannerViewFullWidthAtBottomOfView(_ bannerView: UIView) {
@@ -214,8 +214,8 @@ class FavoritesVC: UIViewController, UITableViewDelegate, UITableViewDataSource,
         defaults.synchronize()
         
         if(favoriteList.count == 0){
-            tableView.isHidden = true
-      
+            //tableView.isHidden = true
+            
             not_found_view.isHidden = false
         }else{
             tableView.isHidden = false
@@ -226,7 +226,7 @@ class FavoritesVC: UIViewController, UITableViewDelegate, UITableViewDataSource,
         self.tableView.reloadData()
         
     }
-
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return favoriteList.count
     }
@@ -235,7 +235,7 @@ class FavoritesVC: UIViewController, UITableViewDelegate, UITableViewDataSource,
         var cell: FavoritesTableViewCell = tableView.dequeueReusableCell(withIdentifier: "cell") as! FavoritesTableViewCell
         
         let contactName = favoriteList[indexPath.row].firstName+" "+favoriteList[indexPath.row].middleName+" "+favoriteList[indexPath.row].familyName
-
+        
         if(contactName == "#  "){
             cell = tableView.dequeueReusableCell(withIdentifier: "cell2") as! FavoritesTableViewCell
             cell.lblName.text = favoriteList[indexPath.row].phoneNumber
@@ -249,46 +249,46 @@ class FavoritesVC: UIViewController, UITableViewDelegate, UITableViewDataSource,
         cell.lblTel.text = favoriteList[indexPath.row].phoneNumber
         cell.bubble.image = UIImage(named: "contactsBubbleBackground")
         cell.bubbleFirstLetter.isHidden = false
-
+        
         if(favoriteList[indexPath.row].img != nil){
             cell.bubble.image = UIImage(data: favoriteList[indexPath.row].img!)
             cell.bubbleFirstLetter.isHidden = true
         }
-     
+        
         cell.dial.isUserInteractionEnabled = true
         let tapGesture1 = UITapGestureRecognizer (target: self, action: #selector(callTabbed))
-   
+        
         tapGesture1.numberOfTapsRequired = 1
         tapGesture1.numberOfTouchesRequired = 1
         cell.dial.accessibilityIdentifier = String(indexPath.row)
-
+        
         cell.dial.addGestureRecognizer(tapGesture1)
-   
-            return cell
-        }
-   
+        
+        return cell
+    }
+    
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         searchBar.resignFirstResponder()
-
+        
         if let viewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "vcDetails") as? DetailsViewController {
             if let navigator = self.navigationController {
-    
+                
                 if(favoriteList[indexPath.row].firstName + " " + favoriteList[indexPath.row].middleName + " " + favoriteList[indexPath.row].familyName == "#  "){
                     viewController.title =  favoriteList[indexPath.row].phoneNumber
                 }else{
                     viewController.title =  favoriteList[indexPath.row].firstName + " " + favoriteList[indexPath.row].middleName + " " + favoriteList[indexPath.row].familyName
                 }
                 
-                    viewController.contact = favoriteList[indexPath.row]
-                    viewController.navigationItem.hidesBackButton = false
-                    viewController.hidesBottomBarWhenPushed = true
-                    navigator.pushViewController(viewController, animated: true)
-                    tableView.deselectRow(at: indexPath, animated: true)
-     
+                viewController.contact = favoriteList[indexPath.row]
+                viewController.navigationItem.hidesBackButton = false
+                viewController.hidesBottomBarWhenPushed = true
+                navigator.pushViewController(viewController, animated: true)
+                tableView.deselectRow(at: indexPath, animated: true)
+                
                 if searchBar.text != nil && searchBar.text != ""{
-                                searchBar.text = ""
-                                resetContacts()
-                         }
+                    searchBar.text = ""
+                    resetContacts()
+                }
             }
         }
     }
@@ -296,38 +296,38 @@ class FavoritesVC: UIViewController, UITableViewDelegate, UITableViewDataSource,
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         if let viewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "vcDetails") as? DetailsViewController {
             if let navigator = self.navigationController {
-    
+                
                 if(favoriteList[indexPath.row].firstName + " " + favoriteList[indexPath.row].middleName + " " + favoriteList[indexPath.row].familyName == "#  "){
                     viewController.title =  favoriteList[indexPath.row].phoneNumber
                 }else{
                     viewController.title =  favoriteList[indexPath.row].firstName + " " + favoriteList[indexPath.row].middleName + " " + favoriteList[indexPath.row].familyName
                 }
                 
-                    viewController.contact = favoriteList[indexPath.row]
-                    viewController.navigationItem.hidesBackButton = false
-                    viewController.hidesBottomBarWhenPushed = true
-                    navigator.pushViewController(viewController, animated: true)
-                    tableView.deselectRow(at: indexPath, animated: true)
-     
+                viewController.contact = favoriteList[indexPath.row]
+                viewController.navigationItem.hidesBackButton = false
+                viewController.hidesBottomBarWhenPushed = true
+                navigator.pushViewController(viewController, animated: true)
+                tableView.deselectRow(at: indexPath, animated: true)
+                
                 if searchBar.text != nil && searchBar.text != ""{
-                                searchBar.text = ""
-                                resetContacts()
-                         }
+                    searchBar.text = ""
+                    resetContacts()
+                }
             }
         }
     }
     
     
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
-  
+        
         if searchBar.text == nil || searchBar.text == ""{
-
+            
             resetContacts()
-          
+            
         }else{
             favoriteList = favoriteListOriginal
             var favoriteList2: [ContactItem] = [ContactItem]()
-
+            
             for contact in favoriteList {
                 if((contact.firstName+" "+contact.middleName+" "+contact.familyName + " " + contact.phoneNumber).lowercased().contains(searchText.lowercased())){
                     favoriteList2.append(contact)
@@ -336,16 +336,16 @@ class FavoritesVC: UIViewController, UITableViewDelegate, UITableViewDataSource,
             
             favoriteList = favoriteList2;
             tableView.isEditing = false
-
+            
             collectionView.reloadData()
-            tableView.reloadData()
+            //tableView.reloadData()
             if(favoriteList.count == 0){
-                tableView.isHidden = true
+                //tableView.isHidden = true
                 lblNotFound.text = NSLocalizedString("no_result_for", comment: "") + " \"" + searchText + "\""
                 imgNotFound.image = UIImage(named: "not_found_search")
                 not_found_view.isHidden = false
             }else{
-                tableView.isHidden = false
+                //tableView.isHidden = false
                 lblNotFound.text = NSLocalizedString("no_favorite_found", comment: "")
                 imgNotFound.image = UIImage(named: "not_found_favorite")
                 not_found_view.isHidden = true
@@ -355,51 +355,48 @@ class FavoritesVC: UIViewController, UITableViewDelegate, UITableViewDataSource,
     }
     
     func resetContacts(){
+        print("1984 resetContacts")
         if(defaults.object(forKey: "favoriteList") != nil){
-                   let decoded  = defaults.object(forKey: "favoriteList") as! Data
-                   favoriteList = NSKeyedUnarchiver.unarchiveObject(with: decoded) as! [ContactItem]
-                   favoriteListOriginal = favoriteList
-               }
-               if(favoriteList.count == 0){
-                   tableView.isHidden = true
-                   
-                   not_found_view.isHidden = false
-               }else{
-                   tableView.isHidden = false
-                   not_found_view.isHidden = true
-               }
-               tableView.isEditing = true
-
+            let decoded  = defaults.object(forKey: "favoriteList") as! Data
+            favoriteList = NSKeyedUnarchiver.unarchiveObject(with: decoded) as! [ContactItem]
+            favoriteListOriginal = favoriteList
+        }
+        if(favoriteList.count == 0){
+            //tableView.isHidden = true
+            not_found_view.isHidden = false
+        }else{
+            //tableView.isHidden = false
+            not_found_view.isHidden = true
+        }
+        tableView.isEditing = true
+        
         self.collectionView.reloadData()
-               self.tableView.reloadData()
-               
+       // self.tableView.reloadData()
     }
     
-   @objc func resetList(_ notification: Notification){
-    if searchBar.text != nil && searchBar.text != ""{
-        
-
-             searchBar.text = ""
-             searchBar.resignFirstResponder()
-        if(defaults.object(forKey: "favoriteList") != nil){
-                   let decoded  = defaults.object(forKey: "favoriteList") as! Data
-                   favoriteList = NSKeyedUnarchiver.unarchiveObject(with: decoded) as! [ContactItem]
-                   favoriteListOriginal = favoriteList
-               }
-               if(favoriteList.count == 0){
-                   tableView.isHidden = true
-                   
-                   not_found_view.isHidden = false
-               }else{
-                   tableView.isHidden = false
-                   not_found_view.isHidden = true
-               }
-               tableView.isEditing = true
-
-        self.collectionView.reloadData()
-               self.tableView.reloadData()
-               
-    }
+    @objc func resetList(_ notification: Notification){
+        if searchBar.text != nil && searchBar.text != ""{
+            
+            searchBar.text = ""
+            searchBar.resignFirstResponder()
+            if(defaults.object(forKey: "favoriteList") != nil){
+                let decoded  = defaults.object(forKey: "favoriteList") as! Data
+                favoriteList = NSKeyedUnarchiver.unarchiveObject(with: decoded) as! [ContactItem]
+                favoriteListOriginal = favoriteList
+            }
+            if(favoriteList.count == 0){
+                tableView.isHidden = true
+                
+                not_found_view.isHidden = false
+            }else{
+                tableView.isHidden = false
+                not_found_view.isHidden = true
+            }
+            tableView.isEditing = true
+            
+            self.collectionView.reloadData()
+            //self.tableView.reloadData()
+        }
     }
     
     @objc func reloadData(_ notification: Notification) {
@@ -412,24 +409,23 @@ class FavoritesVC: UIViewController, UITableViewDelegate, UITableViewDataSource,
             tableView.isHidden = true
             not_found_view.isHidden = false
         }else{
-        tableView.isHidden = false
-        not_found_view.isHidden = true
-
+            tableView.isHidden = false
+            not_found_view.isHidden = true
+            
         }
         
         if(favoriteList.count > 1){
-
+            
             searchBar.isUserInteractionEnabled = true
         }else{
-      
+            
             searchBar.isUserInteractionEnabled = false
             
         }
         collectionView.reloadData()
-        tableView.reloadData()
-
+        //tableView.reloadData()
     }
-  
+    
     @objc func callTabbed(sender: UITapGestureRecognizer ) {
         
         let row =  Int(sender.view!.accessibilityIdentifier!)
@@ -438,21 +434,16 @@ class FavoritesVC: UIViewController, UITableViewDelegate, UITableViewDataSource,
             cell.imgDial.image = UIImage(named: "dial_pressed")
             DispatchQueue.main.asyncAfter(deadline: .now()+0.10 ) {
                 cell.imgDial.image = UIImage(named: "dial")
-                
             }
-            
         }
-
-        var phone = favoriteList[row!].phoneNumber
-            phone = phone.replacingOccurrences(of: "-", with: "").replacingOccurrences(of: " ", with: "").replacingOccurrences(of: "(", with: "").replacingOccurrences(of: ")", with: "")
-            dialNumber(number: phone)
-
         
+        var phone = favoriteList[row!].phoneNumber
+        phone = phone.replacingOccurrences(of: "-", with: "").replacingOccurrences(of: " ", with: "").replacingOccurrences(of: "(", with: "").replacingOccurrences(of: ")", with: "")
+        dialNumber(number: phone)
     }
     func dialNumber(number : String) {
-        
         if let url = URL(string: "tel://\(number)"),
-            UIApplication.shared.canOpenURL(url) {
+           UIApplication.shared.canOpenURL(url) {
             if #available(iOS 10, *) {
                 UIApplication.shared.open(url, options: [:], completionHandler:nil)
             } else {
@@ -466,12 +457,9 @@ class FavoritesVC: UIViewController, UITableViewDelegate, UITableViewDataSource,
     @IBAction func btnSettings(_ sender: Any) {
         if let viewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "vcSettings") as? SettingsViewController {
             if let navigator = self.navigationController {
-                
                 viewController.navigationItem.hidesBackButton = false
                 viewController.hidesBottomBarWhenPushed = true
                 navigator.pushViewController(viewController, animated: true)
-                
-                
             }
         }
     }
@@ -498,20 +486,20 @@ class FavoritesVC: UIViewController, UITableViewDelegate, UITableViewDataSource,
 }
 
 extension FavoritesVC: UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
-
+    
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-            let numberOfItemsPerRow:CGFloat = 3
-            let spacingBetweenCells:CGFloat = 14
-            
-            let totalSpacing = (3 * self.spacing) + ((numberOfItemsPerRow - 1) * spacingBetweenCells) //Amount of total spacing in a row
-            
-            if let collection = self.collectionView{
-                let width = (collection.bounds.width - totalSpacing)/numberOfItemsPerRow
-                return CGSize(width: width, height: 150)
-            }else{
-                return CGSize(width: 0, height: 0)
-            }
+        let numberOfItemsPerRow:CGFloat = 3
+        let spacingBetweenCells:CGFloat = 14
+        
+        let totalSpacing = (3 * self.spacing) + ((numberOfItemsPerRow - 1) * spacingBetweenCells) //Amount of total spacing in a row
+        
+        if let collection = self.collectionView{
+            let width = (collection.bounds.width - totalSpacing)/numberOfItemsPerRow
+            return CGSize(width: width, height: 150)
+        }else{
+            return CGSize(width: 0, height: 0)
         }
+    }
     
     func numberOfSections(in collectionView: UICollectionView) -> Int {
         return 1
@@ -526,27 +514,27 @@ extension FavoritesVC: UICollectionViewDataSource, UICollectionViewDelegate, UIC
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         print("188444 : hey")
         if let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "articleCell", for: indexPath) as? ContactCollectionCell {
-                        
-           // let contactsSectionTitle = favoriteList[indexPath.section]
-            print("188444 : hello")
-         
-               cell.image.image = UIImage(named: "contactsBubbleBackground")
-                
-                let contactName = favoriteList[indexPath.row].firstName+" "+favoriteList[indexPath.row].middleName+" "+favoriteList[indexPath.row].familyName
             
-   
+            // let contactsSectionTitle = favoriteList[indexPath.section]
+            print("188444 : hello")
+            
+            cell.image.image = UIImage(named: "contactsBubbleBackground")
+            
+            let contactName = favoriteList[indexPath.row].firstName+" "+favoriteList[indexPath.row].middleName+" "+favoriteList[indexPath.row].familyName
+            
+            
             print("188444 : " ,contactName)
-                if(contactName == "#  "){
+            if(contactName == "#  "){
                 cell.nameLabel.text = favoriteList[indexPath.row].phoneNumber
-              
-                }else{
-                    cell.nameLabel.text = favoriteList[indexPath.row].firstName+" "+favoriteList[indexPath.row].middleName+" "+favoriteList[indexPath.row].familyName
-                }
                 
-                if(favoriteList[indexPath.row].img != nil){
-                    cell.image.image = UIImage(data: favoriteList[indexPath.row].img!)
+            }else{
+                cell.nameLabel.text = favoriteList[indexPath.row].firstName+" "+favoriteList[indexPath.row].middleName+" "+favoriteList[indexPath.row].familyName
+            }
+            
+            if(favoriteList[indexPath.row].img != nil){
+                cell.image.image = UIImage(data: favoriteList[indexPath.row].img!)
                 
-                }
+            }
             
             
             return cell
