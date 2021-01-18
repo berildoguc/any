@@ -261,9 +261,7 @@ class Notes:UIViewController, UITableViewDataSource, UITableViewDelegate, UIScro
         
         return cell
     }
-    
-    
-    
+
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         searchBar.resignFirstResponder()
         
@@ -272,9 +270,6 @@ class Notes:UIViewController, UITableViewDataSource, UITableViewDelegate, UIScro
         noteID = self.noteList[indexPath.item].noteID
         performSegue(withIdentifier: "segueNotePopup", sender: nil)
         tableView.deselectRow(at: indexPath, animated: true)
-        
-        
-        
     }
     
     @objc func changeBottomHeight(_ notification: Notification) {
