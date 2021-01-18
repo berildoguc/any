@@ -1,0 +1,84 @@
+/*
+ Localizable.strings
+ 
+ Created by Haydar Kardeşler on 25.08.2018.
+ Copyright © 2018 Nuri Yigit. All rights reserved.
+ */
+
+"settings" = "Settings";
+"contacts" = "Contacts";
+"favorites" = "Favorites";
+"gmail" = "Gmail";
+"outlook" = "Outlook";
+"yahoo" = "Yahoo";
+"facebook" = "Facebook";
+"instagram" = "Instagram";
+"twitter" = "Twitter";
+"notes" = "Notes";
+"whatsapp_not_installed" = "WhatsApp is not installed on your device.";
+"viber_not_installed" = "Viber is not installed on your device.";
+"telegram_not_installed" = "Telegram is not installed on your device.";
+"skype_not_installed" = "Skype is not installed on your device.";
+"messenger_not_installed" = "Messenger is not installed on your device.";
+"no_contact_found" = "No contacts";
+"no_note_found" = "No notes";
+"no_favorite_found" = "No favorites";
+"do_you_want_to_get" = "Download now?";
+"yes" = "Yes";
+"no" = "No";
+"try_again" = "Try again";
+"loading" = "Loading...";
+"please_wait" = "Please wait...";
+"no_internet_connection" = "No network connection";
+"save" = "Save";
+"cancel" = "Cancel";
+"search_word" = "Search";
+"no_result_for" = "No results found for ";
+"removed_favorites" = "Removed from Favorites";
+"added_favorites" = "Added to Favorites";
+"two_tabs_enable" = "At least 1 tab must be enabled";
+"no_any_username" = "Username not identified";
+"save_a_username" = "Save a username";
+"intro1_string" = "Pick a contact and view their messages in messaging apps and social media platforms";
+"intro2_string" = "Instantly follow your friends’ Facebook, Instagram, and Twitter posts";
+"settings_choose_messenger" = "Choose messaging apps";
+"settings_manage_main_page" = "Manage main page items";
+"settings_drag_and_drop" = "Drag and drop to reorder";
+"settings_rearrange_items" = "Rearrange items on contact page";
+"my_profile" = "My Profile";
+"my_accounts" = "My Accounts";
+"example_username" = "example.username";
+"example_email" = "example@abc.com";
+"next" = "NEXT";
+"done" = "DONE";
+"done2" = "Done";
+"previous" = "PREVIOUS";
+"valid_username" = "Please enter a valid username";
+"pull_to_refresh" = "Pull to refresh";
+"delete_note_warning" = "Delete?";
+"you" = "You";
+"customtab1" = "Custom Tab 1";
+"customtab2" = "Custom Tab 2";
+"customtab3" = "Custom Tab 3";
+"gallery" = "Gallery";
+"example" = "Example";
+"add_tab_text" = "Add a custom website";
+"url" = "URL";
+"title" = "Title";
+"add" = "Add";
+"delete" = "Delete";
+"add_tab_alert" = "Please fill in all fields";
+"unique_name_warning" = "This tab name already exists. Please enter a different name.";
+"edit_custom_tab" = "Edit website";
+"invalid_url" = "Invalid URL!";
+"rate" = "Rate AnyMessage";
+"permission_error_title" = "Permission Error";
+"permission_error_desc" = "Read Contacts permission is required to function app correctly. Please allow this permission in Settings.";
+"allow" = "Allow";
+"exit" = "Exit";
+"tap_contact_row" = "Tap a contact to view message history";
+"detail_guide_text" = "Use Settings menu to enter a contact’s social media username and manage item ordering";
+"email" = "Email";
+"no_any_email" = "Email address not identified";
+"save_an_email_address" = "Save an email address";
+"valid_email" = "Invalid email address";
