@@ -38,8 +38,8 @@
 "two_tabs_enable" = "En az bir sekme seçilmelidir";
 "no_any_username" = "Kullanıcı adı bulunamadı";
 "save_a_username" = "Bir kullanıcı adı kaydet";
-"intro1_string" = "Rehberden bir kişi seçin ve farklı uygulamalardaki tüm mesajlarına ve sosyal medya paylaşımlarına aynı yerden ulaşın";
-"intro2_string" = "Arkadaşlarınızın Facebook, Instagram ve Twitter mesajlarını kolayca takip edin";
+"intro1_string" = "Rehberinizdeki kişilere özel fotoğraflar, videolar ve notlar ekleyin.";
+"intro2_string" = "Tüm resimlerinizi ve videolarınızı isimlerine veya tarihlerine göre görüntüleyin.";
 "settings_choose_messenger" = "Mesajlaşma uygulamalarını seçin";
 "settings_manage_main_page" = "Ana sayfa öğelerini düzenleyin";
 "settings_drag_and_drop" = "Değiştirmek için sürükleyin ve bırakın";

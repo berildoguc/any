@@ -15,7 +15,7 @@ import UIKit
     
     override func awakeFromNib() {
         self.image.layer.masksToBounds = false
-        self.image.layer.cornerRadius = self.image.frame.width / 2
+        self.image.layer.cornerRadius = 11
         self.image.clipsToBounds = true
       }
 }

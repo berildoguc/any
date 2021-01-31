@@ -1,0 +1,6 @@
+framework module Pods_AnyMessage {
+  umbrella header "Pods-AnyMessage-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -74,12 +74,12 @@ class ProfileViewController: TabmanViewController, PageboyViewControllerDataSour
         
                
                
-              navigationController?.navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor(red: 0/255.0, green: 132.0/255.0, blue: 255.0/255.0, alpha: 1.0)]
-              navigationController?.navigationBar.tintColor = UIColor(red: 0/255.0, green: 132.0/255.0, blue: 255.0/255.0, alpha: 1.0)
+        navigationController?.navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white]
+        navigationController?.navigationBar.tintColor = .white
               
               navigationController?.navigationBar.shadowImage = UIImage()
               navigationController?.navigationBar.backgroundColor = UIColor(red: 248.0/255.0, green: 248.0/255.0, blue: 248.0/255.0, alpha: 1.0)
-              navigationController?.navigationBar.barTintColor = UIColor(red: 248.0/255.0, green: 248.0/255.0, blue: 248.0/255.0, alpha: 1.0)
+              navigationController?.navigationBar.barTintColor = UIColor(red: 42/255, green: 42/255, blue: 41/255, alpha: 1)
 
 
           
@@ -145,7 +145,7 @@ class ProfileViewController: TabmanViewController, PageboyViewControllerDataSour
             appearance.indicator.useRoundedCorners = true
             appearance.interaction.isScrollEnabled = true
             
-            appearance.style.background = .solid(color: UIColor(red: 248.0/255.0, green: 248.0/255.0, blue: 248.0/255.0, alpha: 1.0))
+            appearance.style.background = .solid(color: UIColor(red: 42/255, green: 42/255, blue: 41/255, alpha: 1))
             
         })
   

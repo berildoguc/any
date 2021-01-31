@@ -12,7 +12,7 @@ class IntroViewController: UIViewController, UIPageViewControllerDelegate
 {
 	@IBOutlet weak var pageControl: UIPageControl!
 	@IBOutlet weak var containerView: UIView!
-	
+    @IBOutlet weak var passButton: UIButton!
     @IBOutlet var btnPrev: UIButton!
     @IBOutlet var btnNext: UIButton!
     let defaults = UserDefaults.standard
@@ -34,6 +34,16 @@ class IntroViewController: UIViewController, UIPageViewControllerDelegate
 	override func viewDidLoad()
 	{
 		super.viewDidLoad()
+        passButton.layer.masksToBounds = true
+        passButton.layer.cornerRadius = 14
+        btnNext.layer.masksToBounds = true
+        btnNext.layer.cornerRadius = 14
+        btnNext.layer.borderWidth = 1
+        btnNext.layer.borderColor = UIColor.white.cgColor
+        btnPrev.layer.masksToBounds = true
+        btnPrev.layer.cornerRadius = 14
+        btnPrev.layer.borderWidth = 1
+        btnPrev.layer.borderColor = UIColor.white.cgColor
         btnPrev.isHidden = true
         btnPrev.setTitle(NSLocalizedString("previous", comment: ""), for: .normal)
         btnNext.setTitle(NSLocalizedString("next", comment: ""), for: .normal)

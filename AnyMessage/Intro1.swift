@@ -16,10 +16,10 @@ class Intro1: UIViewController {
         super.viewDidLoad()
         if(page == 0){
             tx.text = NSLocalizedString("intro1_string", comment: "")
-            img.image = UIImage(named: "intro")
+            img.image = UIImage(named: "info1Dark")
         }else{
             tx.text = NSLocalizedString("intro2_string", comment: "")
-            img.image = UIImage(named: "intro2")
+            img.image = UIImage(named: "info2Dark")
         }
     }
     

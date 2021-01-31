@@ -668,6 +668,7 @@
             
             self.navigationController?.hidesBarsOnSwipe = false
             self.navigationController?.setNavigationBarHidden(false, animated: true)
+            self.navigationController?.navigationBar.tintColor = UIColor(red: 42/255, green: 42/255, blue: 41/255, alpha: 1)
         }
         
         @objc func reloadDataContacts(_ notification: Notification) {
@@ -785,7 +786,8 @@
                     
                     if(nameValues[indexPath.row].img != nil){
                         cell.image.image = UIImage(data: nameValues[indexPath.row].img!)
-                        
+                    } else {
+                        cell.image.image = UIImage(named: "users")!
                     }
                 }
                 
